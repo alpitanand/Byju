@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap");
+
+.jobs {
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  .jobCard {
+    width: 26%;
+    min-height: 50px;
+    padding: 20px;
+    background: #ffffa2;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+    margin: 2%;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+    .jobCard:hover {
+      box-shadow: rgba(46, 61, 73, 0.2) 2.99322px 4.33107px 13.6282px 0px;
+    }
+    .title {
+      text-align: center;
+      margin: 20px;
+    }
+    .imf {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
